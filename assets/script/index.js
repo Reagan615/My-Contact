@@ -16,8 +16,6 @@ btn.addEventListener('click', function() {
     let item = document.createElement('div');
     let items = document.querySelectorAll('.grid-container div');
    
-    
-    
     if (arr.length !== 3) {
         alert("Please enter the correct format")
     } else if (!isNaN(arr[1])) {
@@ -43,13 +41,6 @@ btn.addEventListener('click', function() {
    
 });
 
-for(let i = 0; i < items.length; i++) {
-       items[i].addEventListener('click', function() {
-           console.log(i);
-           grid.removeChild(grid.items[i]);
-    
-       });
-    };
 
 
 
